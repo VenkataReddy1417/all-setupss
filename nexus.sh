@@ -1,5 +1,3 @@
-#create amazonlinux ec2 with t2.micro and 30 gb of ebs with port 8081 
-
 sudo yum update -y
 sudo yum install wget -y
 sudo yum install java-17-amazon-corretto-headless -y
@@ -32,4 +30,3 @@ EOL
 sudo chkconfig nexus on
 sudo systemctl start nexus
 sudo systemctl status nexus
-
